@@ -1,0 +1,172 @@
+#title {
+    -fx-font-family: "Monotype Corsiva";
+    -fx-font-size: 130;
+    -fx-text-fill: #00302f;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #00302f;
+}
+
+.tab:selected {
+    -fx-opacity: 100%;
+    -fx-background-color: #7a987c;
+}
+
+.tab {
+    -fx-opacity: .5;
+}
+
+.button {
+    -fx-background-color: #7a987c;
+    -fx-font-family: "Monotype Corsiva";
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+}
+
+#varSizeIn {
+    -fx-font-family: "Monotype Corsiva";
+    -fx-font-size: 20;
+    -fx-font-weight: bolder;
+}
+
+#varSizeIn:focused {
+    -fx-border-color: #7a987c;
+    -fx-stroke: #00302f;
+}
+
+.button:hover {
+    -fx-background-color: #00302f;
+    -fx-cursor: hand;
+}
+
+.radio-button .dot {
+    -fx-padding: 3px;
+}
+
+.radio-button:hover {
+    -fx-cursor: hand;
+}
+
+.radio-button:selected .dot {
+    -fx-background-color: #00302f;
+}
+
+.radio-button {
+    -fx-text-fill: #077191;
+}
+
+.label {
+    -fx-text-fill: #00901f;
+    -fx-font-size: 14;
+}
+
+.mintermGroup {
+    -fx-border-radius: 5;
+    -fx-border-color: #ccc;
+    -fx-background-color: #ddd;
+    -fx-background-radius: 5;
+    -fx-padding: 4;
+}
+
+#tab1, #tab2, #tab3, #tab4, #tab5 {
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+#tab1 {
+    -fx-background-size: 50;
+    -fx-background-image: url("../images/home.png");
+}
+
+#tab2 {
+    -fx-background-size: 120;
+    -fx-background-image: url("../images/minterm.png");
+}
+
+#tab3 {
+    -fx-background-image: url("../images/table.png");
+}
+
+#tab4 {
+    -fx-background-image: url("../images/char.png");
+}
+
+#tab5 {
+    -fx-background-size: 120;
+    -fx-background-image: url("../images/expression.png");
+}
+
+.G {
+    -fx-text-fill: red;
+}
+
+.implicantGroups {
+    -fx-border-radius: 5;
+    -fx-border-color: #ccc;
+    -fx-background-radius: 5;
+    -fx-padding: 4;
+}
+
+.tableImplicants {
+    -fx-text-fill: #077191;
+}
+
+#homeError {
+    -fx-text-fill: red;
+}
+
+.essX {
+    -fx-text-fill: rgba(255, 145, 131, 0.79);
+}
+
+.essPrime, .PrimeExpression {
+    -fx-text-fill: red;
+}
+
+.removedRows {
+    -fx-text-fill: blue;
+}
+
+.rowX {
+    -fx-text-fill: rgba(7, 113, 145, 0.77);
+}
+
+.columnX {
+    -fx-text-fill: rgba(174, 0, 144, 0.59);
+}
+
+.Patrik, .remainingPrime {
+    -fx-text-fill: black;
+}
+
+.Answer {
+    -fx-font-size: 20;
+    -fx-text-fill: #00302f;
+    -fx-font-family: "Monotype Corsiva";
+}
+
+#answerTitle {
+    -fx-font-size: 25;
+    -fx-font-family: "Monotype Corsiva";
+}
+
+#rights {
+    -fx-text-fill: rgba(168, 168, 168, 0.51);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<TabPane fx:id="tabpane" maxHeight="-Infinity" maxWidth="640.0" minHeight="400.0" minWidth="650.0" tabClosingPolicy="UNAVAILABLE" tabMinHeight="65.0" tabMinWidth="112.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <tabs>
+        <Tab fx:id="tab1">
+            <content>
+                <AnchorPane layoutY="-74.0" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <children>
+                        <Button fx:id="procceed" layoutX="355.0" layoutY="230.0" mnemonicParsing="false" onAction="#procceedButton" text="Minterms" />
+                        <TextField fx:id="varSizeIn" alignment="CENTER" layoutX="225.0" layoutY="230.0" prefHeight="25.0" prefWidth="106.0" promptText="#Variable" />
+                        <Label fx:id="title" layoutX="141.0" layoutY="29.0" text="Tabular">
+                            <font>
+                                <Font name="Monotype Corsiva" size="130.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="homeError" alignment="CENTER" layoutX="185.0" layoutY="192.0" textAlignment="CENTER" />
+                        <Label fx:id="rights" layoutX="14.0" layoutY="304.0" text="ALEX CSED20 Muhammad Sharaf &amp;&amp; Mazen El-Mesery" textFill="#00000071" />
+                    </children>
+                </AnchorPane>
+            </content>
+        </Tab>
+        <Tab fx:id="tab2">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <children>
+                        <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="2.0">
+                            <children>
+                                <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                    <children>
+                                        <ScrollPane fx:id="scroll" focusTraversable="false" hbarPolicy="NEVER" prefHeight="278.0" prefWidth="625.0" vbarPolicy="ALWAYS" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0">
+                                            <content>
+                                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="269.0" prefWidth="630.0">
+                                                    <children>
+                                                        <TilePane fx:id="tile" hgap="2.0" prefColumns="4" prefHeight="265.0" prefTileWidth="152.0" prefWidth="640.0" vgap="7.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="2.0">
+                                                            <padding>
+                                                                <Insets bottom="10.0" left="2.0" top="7.0" />
+                                                            </padding>
+                                                        </TilePane>
+                                                    </children>
+                                                </AnchorPane>
+                                            </content>
+                                        </ScrollPane>
+                                    </children>
+                                </AnchorPane>
+                                <Button fx:id="optimize" mnemonicParsing="false" onAction="#onOptimizeClick" text="Optimize">
+                                    <VBox.margin>
+                                        <Insets left="6.0" top="5.0" />
+                                    </VBox.margin>
+                                </Button>
+                            </children>
+                        </VBox>
+                    </children>
+                </AnchorPane>
+            </content>
+        </Tab>
+        <Tab fx:id="tab3">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <children>
+                        <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="2.0">
+                            <children>
+                                <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                    <children>
+                                        <ScrollPane fx:id="scroll1" focusTraversable="false" hbarPolicy="ALWAYS" prefHeight="278.0" prefWidth="625.0" vbarPolicy="ALWAYS" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="0.0">
+                                            <content>
+                                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="269.0" prefWidth="620.0" />
+                                            </content>
+                                        </ScrollPane>
+                                    </children>
+                                </AnchorPane>
+                                <Button fx:id="tableImage" mnemonicParsing="false" onAction="#onTableImageClick" text="Save As Image">
+                                    <VBox.margin>
+                                        <Insets left="6.0" top="5.0" />
+                                    </VBox.margin>
+                                </Button>
+                            </children>
+                        </VBox>
+                    </children>
+                </AnchorPane>
+            </content>
+        </Tab>
+        <Tab fx:id="tab4">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <children>
+                        <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="2.0">
+                            <children>
+                                <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                    <children>
+                                        <ScrollPane fx:id="scroll2" hbarPolicy="ALWAYS" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="278.0" prefWidth="630.0" vbarPolicy="ALWAYS" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="2.0">
+                                            <content>
+                                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="620.0" />
+                                            </content>
+                                        </ScrollPane>
+                                    </children>
+                                </AnchorPane>
+                                <Button fx:id="charImage" mnemonicParsing="false" onAction="#onCharImageClick" text="Save As Image">
+                                    <VBox.margin>
+                                        <Insets left="6.0" top="5.0" />
+                                    </VBox.margin>
+                                </Button>
+                            </children>
+                        </VBox>
+                    </children>
+                </AnchorPane>
+            </content>
+        </Tab>
+        <Tab fx:id="tab5">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <children>
+                        <Label fx:id="answerTitle" layoutX="169.0" layoutY="14.0" text="The Optimized Expression(s)" textFill="#3eab29">
+                            <font>
+                                <Font name="Cambria" size="25.0" />
+                            </font>
+                        </Label>
+                  <ScrollPane fx:id="answerScroll" prefHeight="251.0" prefWidth="622.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="60.0">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="251.0">
+                           <children>
+                                    <VBox fx:id="answers" prefHeight="251.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="60.0">
+                                        <padding>
+                                            <Insets bottom="10.0" left="10.0" right="20.0" top="10.0" />
+                                        </padding>
+                                    </VBox>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </ScrollPane>
+                    </children>
+                </AnchorPane>
+            </content>
+        </Tab>
+    </tabs>
+    <opaqueInsets>
+        <Insets />
+    </opaqueInsets>
+</TabPane>
